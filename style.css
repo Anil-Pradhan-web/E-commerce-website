@@ -279,3 +279,37 @@ ul{
 .Copyright{
     text-align: center;
 }
+
+/** All Products **/
+h2{
+    margin-right: auto;
+}
+.row2{
+    justify-content: space-between;
+    margin:100px auto 50px;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+    border-radius: 30px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}   
+.page-btn span{
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background-color: #ff523b;
+    color: white;
+}
